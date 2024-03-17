@@ -4,12 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+    <title>Carousel</title>
 </head>
 <body>
-    <img id="image" alt="">
-    <button onclick="prev()">Prev</button>
-    <button onclick="next()">Next</button>
+    <div class="main">
+            <button onclick="prev()"><i class="fa-solid fa-angle-left"></i></button>
+       <div class="image">
+        <img id="image" alt="">
+       </div>
+        <button onclick="next()"><i class="fa-solid fa-angle-right"></i></button>
+    </div>
 </body>
 </html>
 <script src="script.js"></script>
+<script src="https://kit.fontawesome.com/6f0fae15cd.js" crossorigin="anonymous"></script>
